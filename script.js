@@ -7,5 +7,6 @@ btn.addEventListener('click',e=>{
 		const li = document.createElement('li')
 		li.innerText = input.value
 		todoList.appendChild(li)
+		input.value = ""
 	}
 })
